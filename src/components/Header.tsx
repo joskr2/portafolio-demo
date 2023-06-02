@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { Link } from 'react-router-dom'
 const Header: FC = () => {
   return (
     <header className='p-4 bg-gray-700 text-white'>
@@ -6,15 +7,15 @@ const Header: FC = () => {
         Mi portafolio
       </h1>
       <nav>
-        <a href="/" className="mt-2">
+        <Link to="/" className="mt-2">
           Inicio
-        </a>
-        <a href="/about" className="mt-2">
+        </Link>
+        <Link to="/about" className="mt-2 ml-4">
           Acerca de
-        </a>
-        <a href="/contact" className="mt-2">
+        </Link>
+        <Link to="/contact" className="mt-2 ml-4">
           Contacto
-        </a>
+        </Link>
       </nav>
     </header>
   )

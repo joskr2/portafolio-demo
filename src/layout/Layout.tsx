@@ -2,6 +2,7 @@ import { FC } from 'react'
 import ILayout from '../interfaces/ILayout'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { Outlet } from 'react-router-dom'
 
 const Layout: FC<ILayout> = ({ children }) => {
   return (
@@ -11,6 +12,7 @@ const Layout: FC<ILayout> = ({ children }) => {
         {children}
       </main>
       <Footer />
+      <Outlet />
     </div>
   )
 }
