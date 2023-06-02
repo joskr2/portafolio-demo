@@ -2,8 +2,8 @@ import { FC } from 'react'
 import { Link } from 'react-router-dom'
 const Header: FC = () => {
   return (
-    <header className='p-4 bg-gray-700 text-white'>
-      <h1 className='text-xl'>
+    <header className='p-4 bg-gray-700 text-white flex flex-col md:flex-row md:justify-between'>
+      <h1 className='text-xl '>
         Mi portafolio
       </h1>
       <nav>
