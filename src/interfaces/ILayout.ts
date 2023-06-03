@@ -4,5 +4,4 @@ interface ILayout {
   children: ReactNode;
 }
 
-
 export default ILayout;

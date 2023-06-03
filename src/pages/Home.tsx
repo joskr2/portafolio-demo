@@ -19,11 +19,11 @@ const Home: FC = () => {
       titulo: 'Proyecto 3',
       descripcion: 'Descripción del proyecto 3'
     },
-  ]
+  ];
 
   return (
-    <div className='p-4'>
-      <h1 className='text-3xl text-center md:text-left '>
+    <div  className='p-4'>
+      <h1  className='text-3xl text-center md:text-left '>
         Mis Proyectos
       </h1>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
